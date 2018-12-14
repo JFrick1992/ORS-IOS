@@ -1,0 +1,6 @@
+framework module Pods_CSC481_ORSUITests {
+  umbrella header "Pods-CSC481-ORSUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

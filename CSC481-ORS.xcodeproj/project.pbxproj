@@ -7,13 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		119F19433EB04B88E700ECE5 /* Pods_CSC481_ORSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65F75403E814B2352E005E97 /* Pods_CSC481_ORSUITests.framework */; };
 		5B23643C21C222D10084B21F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B23643B21C222D10084B21F /* AppDelegate.swift */; };
-		5B23643E21C222D10084B21F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B23643D21C222D10084B21F /* ViewController.swift */; };
 		5B23644121C222D10084B21F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B23643F21C222D10084B21F /* Main.storyboard */; };
 		5B23644321C222D20084B21F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B23644221C222D20084B21F /* Assets.xcassets */; };
 		5B23644621C222D20084B21F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B23644421C222D20084B21F /* LaunchScreen.storyboard */; };
 		5B23645121C222D30084B21F /* CSC481_ORSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B23645021C222D30084B21F /* CSC481_ORSTests.swift */; };
 		5B23645C21C222D30084B21F /* CSC481_ORSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B23645B21C222D30084B21F /* CSC481_ORSUITests.swift */; };
+		5B23646C21C2240E0084B21F /* AppOrRecruitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B23646B21C2240E0084B21F /* AppOrRecruitViewController.swift */; };
+		5B23646E21C225990084B21F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B23646D21C225990084B21F /* User.swift */; };
+		5B23647021C23BB20084B21F /* RecruiterLogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B23646F21C23BB20084B21F /* RecruiterLogInViewController.swift */; };
+		5B23647221C23BC60084B21F /* ApplicantLogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B23647121C23BC60084B21F /* ApplicantLogInViewController.swift */; };
+		5B23647421C23E9D0084B21F /* ApplicantSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B23647321C23E9D0084B21F /* ApplicantSignUpViewController.swift */; };
+		5B23647621C23EB10084B21F /* RecruiterSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B23647521C23EB10084B21F /* RecruiterSignUpViewController.swift */; };
+		5B23647821C24EDF0084B21F /* RecruiterInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B23647721C24EDF0084B21F /* RecruiterInfoViewController.swift */; };
+		5B23647A21C253490084B21F /* RecruiterHubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B23647921C253490084B21F /* RecruiterHubViewController.swift */; };
+		5B23647C21C254B10084B21F /* RecruiterSideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B23647B21C254B10084B21F /* RecruiterSideMenuViewController.swift */; };
+		5B83FA3621C33A6200401FC5 /* RecruiterViewApplicantProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B83FA3521C33A6200401FC5 /* RecruiterViewApplicantProfileViewController.swift */; };
+		5BD1E67021C2D5EB00B6980C /* RecruiterProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD1E66F21C2D5EB00B6980C /* RecruiterProfileViewController.swift */; };
+		5BD1E67221C2DBFB00B6980C /* RecJobTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD1E67121C2DBFB00B6980C /* RecJobTitleCell.swift */; };
+		5BD1E67421C2DD3D00B6980C /* RecruiterJobCreationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD1E67321C2DD3D00B6980C /* RecruiterJobCreationViewController.swift */; };
+		5BD1E67821C2DF9F00B6980C /* KeywordCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD1E67721C2DF9F00B6980C /* KeywordCell.swift */; };
+		5BD1E67A21C2E41000B6980C /* Job.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD1E67921C2E41000B6980C /* Job.swift */; };
+		5BD1E67C21C2F15100B6980C /* RecruiterJobDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD1E67B21C2F15100B6980C /* RecruiterJobDetailsViewController.swift */; };
+		5BD1E67E21C30F9000B6980C /* ApplicantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD1E67D21C30F9000B6980C /* ApplicantCell.swift */; };
+		5BD1E68021C3142C00B6980C /* ApplicantInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD1E67F21C3142C00B6980C /* ApplicantInfoViewController.swift */; };
+		5BD1E68221C3185C00B6980C /* ApplicantHubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD1E68121C3185C00B6980C /* ApplicantHubViewController.swift */; };
+		5BD1E68421C321F000B6980C /* AppJobTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD1E68321C321F000B6980C /* AppJobTitleCell.swift */; };
+		5BD1E68621C32B7700B6980C /* ApplicantJobDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD1E68521C32B7700B6980C /* ApplicantJobDetailsViewController.swift */; };
+		5BD1E68821C32BD600B6980C /* ApplicantProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD1E68721C32BD600B6980C /* ApplicantProfileViewController.swift */; };
+		C9985517CF5BB778B0858DAC /* Pods_CSC481_ORS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7141A5896F11CE3CD7B04156 /* Pods_CSC481_ORS.framework */; };
+		EC6DADA717DAEC5467C53634 /* Pods_CSC481_ORSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E75D909135EB19FE705C5565 /* Pods_CSC481_ORSTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +58,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		410B68D871E877ACA4BC1A30 /* Pods-CSC481-ORS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSC481-ORS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CSC481-ORS/Pods-CSC481-ORS.debug.xcconfig"; sourceTree = "<group>"; };
+		4F27588A0D06D80B0AD319F6 /* Pods-CSC481-ORS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSC481-ORS.release.xcconfig"; path = "Pods/Target Support Files/Pods-CSC481-ORS/Pods-CSC481-ORS.release.xcconfig"; sourceTree = "<group>"; };
 		5B23643821C222D10084B21F /* CSC481-ORS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CSC481-ORS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B23643B21C222D10084B21F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5B23643D21C222D10084B21F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5B23644021C222D10084B21F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5B23644221C222D20084B21F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B23644521C222D20084B21F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +72,35 @@
 		5B23645721C222D30084B21F /* CSC481-ORSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CSC481-ORSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B23645B21C222D30084B21F /* CSC481_ORSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSC481_ORSUITests.swift; sourceTree = "<group>"; };
 		5B23645D21C222D30084B21F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B23646B21C2240E0084B21F /* AppOrRecruitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppOrRecruitViewController.swift; sourceTree = "<group>"; };
+		5B23646D21C225990084B21F /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		5B23646F21C23BB20084B21F /* RecruiterLogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecruiterLogInViewController.swift; sourceTree = "<group>"; };
+		5B23647121C23BC60084B21F /* ApplicantLogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicantLogInViewController.swift; sourceTree = "<group>"; };
+		5B23647321C23E9D0084B21F /* ApplicantSignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicantSignUpViewController.swift; sourceTree = "<group>"; };
+		5B23647521C23EB10084B21F /* RecruiterSignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecruiterSignUpViewController.swift; sourceTree = "<group>"; };
+		5B23647721C24EDF0084B21F /* RecruiterInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecruiterInfoViewController.swift; sourceTree = "<group>"; };
+		5B23647921C253490084B21F /* RecruiterHubViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecruiterHubViewController.swift; sourceTree = "<group>"; };
+		5B23647B21C254B10084B21F /* RecruiterSideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecruiterSideMenuViewController.swift; sourceTree = "<group>"; };
+		5B83FA3521C33A6200401FC5 /* RecruiterViewApplicantProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecruiterViewApplicantProfileViewController.swift; sourceTree = "<group>"; };
+		5BD1E66F21C2D5EB00B6980C /* RecruiterProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecruiterProfileViewController.swift; sourceTree = "<group>"; };
+		5BD1E67121C2DBFB00B6980C /* RecJobTitleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecJobTitleCell.swift; sourceTree = "<group>"; };
+		5BD1E67321C2DD3D00B6980C /* RecruiterJobCreationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecruiterJobCreationViewController.swift; sourceTree = "<group>"; };
+		5BD1E67721C2DF9F00B6980C /* KeywordCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeywordCell.swift; sourceTree = "<group>"; };
+		5BD1E67921C2E41000B6980C /* Job.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Job.swift; sourceTree = "<group>"; };
+		5BD1E67B21C2F15100B6980C /* RecruiterJobDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecruiterJobDetailsViewController.swift; sourceTree = "<group>"; };
+		5BD1E67D21C30F9000B6980C /* ApplicantCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicantCell.swift; sourceTree = "<group>"; };
+		5BD1E67F21C3142C00B6980C /* ApplicantInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicantInfoViewController.swift; sourceTree = "<group>"; };
+		5BD1E68121C3185C00B6980C /* ApplicantHubViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicantHubViewController.swift; sourceTree = "<group>"; };
+		5BD1E68321C321F000B6980C /* AppJobTitleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppJobTitleCell.swift; sourceTree = "<group>"; };
+		5BD1E68521C32B7700B6980C /* ApplicantJobDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicantJobDetailsViewController.swift; sourceTree = "<group>"; };
+		5BD1E68721C32BD600B6980C /* ApplicantProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicantProfileViewController.swift; sourceTree = "<group>"; };
+		65F75403E814B2352E005E97 /* Pods_CSC481_ORSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CSC481_ORSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7141A5896F11CE3CD7B04156 /* Pods_CSC481_ORS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CSC481_ORS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B394D3BFD988BA617E515EA /* Pods-CSC481-ORSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSC481-ORSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CSC481-ORSTests/Pods-CSC481-ORSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9E07EFE9E4B623B570E1A636 /* Pods-CSC481-ORSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSC481-ORSUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CSC481-ORSUITests/Pods-CSC481-ORSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B55B594281DEB6996C4647BA /* Pods-CSC481-ORSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSC481-ORSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CSC481-ORSTests/Pods-CSC481-ORSTests.release.xcconfig"; sourceTree = "<group>"; };
+		E75D909135EB19FE705C5565 /* Pods_CSC481_ORSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CSC481_ORSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE38429A9A8BDB54AE9930E2 /* Pods-CSC481-ORSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSC481-ORSUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CSC481-ORSUITests/Pods-CSC481-ORSUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9985517CF5BB778B0858DAC /* Pods_CSC481_ORS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC6DADA717DAEC5467C53634 /* Pods_CSC481_ORSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +124,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				119F19433EB04B88E700ECE5 /* Pods_CSC481_ORSUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +138,8 @@
 				5B23644F21C222D30084B21F /* CSC481-ORSTests */,
 				5B23645A21C222D30084B21F /* CSC481-ORSUITests */,
 				5B23643921C222D10084B21F /* Products */,
+				F3AFB7AA2EE6BF3E62E80417 /* Pods */,
+				CCBE66B11F8A53C1BF9E2BEE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +156,9 @@
 		5B23643A21C222D10084B21F /* CSC481-ORS */ = {
 			isa = PBXGroup;
 			children = (
+				5B23646A21C223000084B21F /* Model */,
+				5B23646921C222E20084B21F /* ViewControllers */,
 				5B23643B21C222D10084B21F /* AppDelegate.swift */,
-				5B23643D21C222D10084B21F /* ViewController.swift */,
 				5B23643F21C222D10084B21F /* Main.storyboard */,
 				5B23644221C222D20084B21F /* Assets.xcassets */,
 				5B23644421C222D20084B21F /* LaunchScreen.storyboard */,
@@ -125,6 +185,81 @@
 			path = "CSC481-ORSUITests";
 			sourceTree = "<group>";
 		};
+		5B23646921C222E20084B21F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5BD1E67621C2DD5400B6980C /* Applicant */,
+				5BD1E67521C2DD4800B6980C /* Recruiter */,
+				5B23646B21C2240E0084B21F /* AppOrRecruitViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		5B23646A21C223000084B21F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5B23646D21C225990084B21F /* User.swift */,
+				5BD1E67121C2DBFB00B6980C /* RecJobTitleCell.swift */,
+				5BD1E67721C2DF9F00B6980C /* KeywordCell.swift */,
+				5BD1E67921C2E41000B6980C /* Job.swift */,
+				5BD1E67D21C30F9000B6980C /* ApplicantCell.swift */,
+				5BD1E68321C321F000B6980C /* AppJobTitleCell.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5BD1E67521C2DD4800B6980C /* Recruiter */ = {
+			isa = PBXGroup;
+			children = (
+				5B23646F21C23BB20084B21F /* RecruiterLogInViewController.swift */,
+				5B23647521C23EB10084B21F /* RecruiterSignUpViewController.swift */,
+				5B23647721C24EDF0084B21F /* RecruiterInfoViewController.swift */,
+				5B23647921C253490084B21F /* RecruiterHubViewController.swift */,
+				5B23647B21C254B10084B21F /* RecruiterSideMenuViewController.swift */,
+				5BD1E66F21C2D5EB00B6980C /* RecruiterProfileViewController.swift */,
+				5BD1E67321C2DD3D00B6980C /* RecruiterJobCreationViewController.swift */,
+				5BD1E67B21C2F15100B6980C /* RecruiterJobDetailsViewController.swift */,
+				5B83FA3521C33A6200401FC5 /* RecruiterViewApplicantProfileViewController.swift */,
+			);
+			path = Recruiter;
+			sourceTree = "<group>";
+		};
+		5BD1E67621C2DD5400B6980C /* Applicant */ = {
+			isa = PBXGroup;
+			children = (
+				5B23647321C23E9D0084B21F /* ApplicantSignUpViewController.swift */,
+				5B23647121C23BC60084B21F /* ApplicantLogInViewController.swift */,
+				5BD1E67F21C3142C00B6980C /* ApplicantInfoViewController.swift */,
+				5BD1E68121C3185C00B6980C /* ApplicantHubViewController.swift */,
+				5BD1E68521C32B7700B6980C /* ApplicantJobDetailsViewController.swift */,
+				5BD1E68721C32BD600B6980C /* ApplicantProfileViewController.swift */,
+			);
+			path = Applicant;
+			sourceTree = "<group>";
+		};
+		CCBE66B11F8A53C1BF9E2BEE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7141A5896F11CE3CD7B04156 /* Pods_CSC481_ORS.framework */,
+				E75D909135EB19FE705C5565 /* Pods_CSC481_ORSTests.framework */,
+				65F75403E814B2352E005E97 /* Pods_CSC481_ORSUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3AFB7AA2EE6BF3E62E80417 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				410B68D871E877ACA4BC1A30 /* Pods-CSC481-ORS.debug.xcconfig */,
+				4F27588A0D06D80B0AD319F6 /* Pods-CSC481-ORS.release.xcconfig */,
+				7B394D3BFD988BA617E515EA /* Pods-CSC481-ORSTests.debug.xcconfig */,
+				B55B594281DEB6996C4647BA /* Pods-CSC481-ORSTests.release.xcconfig */,
+				9E07EFE9E4B623B570E1A636 /* Pods-CSC481-ORSUITests.debug.xcconfig */,
+				FE38429A9A8BDB54AE9930E2 /* Pods-CSC481-ORSUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +267,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5B23646021C222D30084B21F /* Build configuration list for PBXNativeTarget "CSC481-ORS" */;
 			buildPhases = (
+				EDD08B01E38463CBD7D160C4 /* [CP] Check Pods Manifest.lock */,
 				5B23643421C222D10084B21F /* Sources */,
 				5B23643521C222D10084B21F /* Frameworks */,
 				5B23643621C222D10084B21F /* Resources */,
+				A4E2F4E3EFAF2C5794113626 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +286,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5B23646321C222D30084B21F /* Build configuration list for PBXNativeTarget "CSC481-ORSTests" */;
 			buildPhases = (
+				26A0EEF029AF61BEF539AB93 /* [CP] Check Pods Manifest.lock */,
 				5B23644821C222D30084B21F /* Sources */,
 				5B23644921C222D30084B21F /* Frameworks */,
 				5B23644A21C222D30084B21F /* Resources */,
@@ -167,6 +305,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5B23646621C222D30084B21F /* Build configuration list for PBXNativeTarget "CSC481-ORSUITests" */;
 			buildPhases = (
+				7B41CB2360E897F9C79F7035 /* [CP] Check Pods Manifest.lock */,
 				5B23645321C222D30084B21F /* Sources */,
 				5B23645421C222D30084B21F /* Frameworks */,
 				5B23645521C222D30084B21F /* Resources */,
@@ -251,13 +390,129 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		26A0EEF029AF61BEF539AB93 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CSC481-ORSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B41CB2360E897F9C79F7035 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CSC481-ORSUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4E2F4E3EFAF2C5794113626 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CSC481-ORS/Pods-CSC481-ORS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
+				"${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CSC481-ORS/Pods-CSC481-ORS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDD08B01E38463CBD7D160C4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CSC481-ORS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5B23643421C222D10084B21F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B23643E21C222D10084B21F /* ViewController.swift in Sources */,
+				5BD1E67421C2DD3D00B6980C /* RecruiterJobCreationViewController.swift in Sources */,
+				5BD1E67821C2DF9F00B6980C /* KeywordCell.swift in Sources */,
+				5BD1E68421C321F000B6980C /* AppJobTitleCell.swift in Sources */,
+				5B23647C21C254B10084B21F /* RecruiterSideMenuViewController.swift in Sources */,
 				5B23643C21C222D10084B21F /* AppDelegate.swift in Sources */,
+				5BD1E67A21C2E41000B6980C /* Job.swift in Sources */,
+				5B23646C21C2240E0084B21F /* AppOrRecruitViewController.swift in Sources */,
+				5BD1E68821C32BD600B6980C /* ApplicantProfileViewController.swift in Sources */,
+				5B23647021C23BB20084B21F /* RecruiterLogInViewController.swift in Sources */,
+				5BD1E67C21C2F15100B6980C /* RecruiterJobDetailsViewController.swift in Sources */,
+				5BD1E67021C2D5EB00B6980C /* RecruiterProfileViewController.swift in Sources */,
+				5B23647A21C253490084B21F /* RecruiterHubViewController.swift in Sources */,
+				5B23647621C23EB10084B21F /* RecruiterSignUpViewController.swift in Sources */,
+				5B83FA3621C33A6200401FC5 /* RecruiterViewApplicantProfileViewController.swift in Sources */,
+				5BD1E68021C3142C00B6980C /* ApplicantInfoViewController.swift in Sources */,
+				5BD1E67221C2DBFB00B6980C /* RecJobTitleCell.swift in Sources */,
+				5B23647821C24EDF0084B21F /* RecruiterInfoViewController.swift in Sources */,
+				5B23646E21C225990084B21F /* User.swift in Sources */,
+				5B23647221C23BC60084B21F /* ApplicantLogInViewController.swift in Sources */,
+				5BD1E68621C32B7700B6980C /* ApplicantJobDetailsViewController.swift in Sources */,
+				5BD1E67E21C30F9000B6980C /* ApplicantCell.swift in Sources */,
+				5BD1E68221C3185C00B6980C /* ApplicantHubViewController.swift in Sources */,
+				5B23647421C23E9D0084B21F /* ApplicantSignUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +685,7 @@
 		};
 		5B23646121C222D30084B21F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 410B68D871E877ACA4BC1A30 /* Pods-CSC481-ORS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +704,7 @@
 		};
 		5B23646221C222D30084B21F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F27588A0D06D80B0AD319F6 /* Pods-CSC481-ORS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +723,7 @@
 		};
 		5B23646421C222D30084B21F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B394D3BFD988BA617E515EA /* Pods-CSC481-ORSTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +745,7 @@
 		};
 		5B23646521C222D30084B21F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B55B594281DEB6996C4647BA /* Pods-CSC481-ORSTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +767,7 @@
 		};
 		5B23646721C222D30084B21F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E07EFE9E4B623B570E1A636 /* Pods-CSC481-ORSUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +788,7 @@
 		};
 		5B23646821C222D30084B21F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE38429A9A8BDB54AE9930E2 /* Pods-CSC481-ORSUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
